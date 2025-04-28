@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1036693724270",
+    "firebase_url": "https://starrymatch-database-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "starrymatch-database",
+    "storage_bucket": "starrymatch-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036693724270:android:c3d61873c68e94a7045a7f",
+        "android_client_info": {
+          "package_name": "com.example.starry_match"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036693724270-v55tnm9bnvqdp23ekl101bnafejbh904.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE2qpt2tXhe1lOTmr3Hdpg9W1S49gteTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036693724270-v55tnm9bnvqdp23ekl101bnafejbh904.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1036693724270-3f4p13hggdk88nks7h13m2768tbm2gq3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.starryMatch"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+import 'package:flutter/material.dart';
+import 'AppThemeExtension.dart';
+
+final lightTheme = ThemeData(
+  fontFamily: "MainFonts",
+  brightness: Brightness.light,
+  scaffoldBackgroundColor: Colors.transparent,
+  colorScheme: const ColorScheme.light(
+    primary: Color.fromARGB(255, 247, 228, 255),
+    onPrimary: Color.fromARGB(255, 106, 52, 137),
+    primaryFixed: Color.fromARGB(255, 94, 74, 43),
+    secondary: Color.fromARGB(255, 255, 233, 197),
+    onSecondary: Color.fromARGB(255, 69, 30, 87),
+    secondaryFixed: Color.fromARGB(255, 240, 192, 255),
+    tertiary: Color.fromARGB(255, 133, 108, 67),
+    onTertiary: Color.fromARGB(255, 25, 7, 36),
+    tertiaryFixed: Color.fromARGB(255, 125, 101, 77),
+    surfaceTint: Color.fromARGB(255, 226, 169, 240),
+    surface: Color.fromARGB(255, 241, 220, 255),
+    surfaceDim: Color.fromARGB(255, 255, 214, 152),
+    onSurface: Color.fromARGB(255, 62, 33, 70),
+  ),
+  extensions: const [
+    AppThemeExtension(
+      bgLogin: 'assets/bg_pastel_login.jpg',
+      bgStart: 'assets/bg_pastel.jpg',
+      bgHome: 'assets/bg_pastel_home.jpg',
+      bgMain: 'assets/bg_pastel_main.jpg',
+      bgDashboard: 'assets/bg_pastel_dashboard.jpg',
+      bgMbti: 'assets/bg_pastel_mbti.jpg',
+      bgCriteria: 'assets/bg_pastel_criteria.jpg',
+      bgTestSelection: 'assets/bg_pastel_test_selection.jpg',
+      bgGuidance: 'assets/bg_pastel_guidance.jpg',
+      bgEnneagram: 'assets/bg_pastel_enneagram.jpg',
+      bgEmail: 'assets/bg_pastel.jpg',
+      logo1: 'assets/logo.png',
+      logo2: 'assets/logo_sub.png',
+    ),
+  ],
+);
+
+final darkTheme = ThemeData(
+  fontFamily: "MainFonts",
+  brightness: Brightness.dark,
+  scaffoldBackgroundColor: Colors.transparent,
+  colorScheme: const ColorScheme.dark(
+    primary: Color.fromARGB(255, 249, 226, 106),
+    onPrimary: Color.fromARGB(255, 100, 66, 26),
+    primaryFixed: Color.fromARGB(255, 50, 29, 54),
+    secondary: Color.fromARGB(255, 133, 98, 156),
+    secondaryFixed: Color.fromARGB(255, 255, 221, 158),
+    onSecondary: Color.fromARGB(255, 155, 99, 201),
+    tertiary: Color.fromARGB(255, 255, 233, 197),
+    onTertiary: Color.fromARGB(255, 255, 233, 197),
+    surfaceTint: Color.fromARGB(255, 255, 195, 105),
+    surface: Color.fromARGB(255, 42, 19, 56),
+    surfaceDim: Color.fromARGB(255, 227, 199, 233),
+    tertiaryFixed: Color.fromARGB(255, 237, 198, 255),
+    onSurface: Color.fromARGB(255, 255, 228, 189),
+  ),
+  extensions: const [
+    AppThemeExtension(
+      bgLogin: 'assets/bg_dark_login.png',
+      bgStart: 'assets/bg_dark.png',
+      bgHome: 'assets/bg_dark_main.png',
+      bgDashboard: 'assets/bg_dark_main.png',
+      bgMain: 'assets/bg_dark_main.png',
+      bgMbti: 'assets/bg_dark_mbti.png',
+      bgCriteria: 'assets/bg_dark_criteria.png',
+      bgTestSelection: 'assets/bg_dark_test_selection.png',
+      bgGuidance: 'assets/bg_dark_guidance.png',
+      bgEnneagram: 'assets/bg_dark_enneagram.png',
+      bgEmail: 'assets/bg_dark.png',
+      logo1: 'assets/logo_dark.png',
+      logo2: 'assets/logo_sub_dark.png',
+    ),
+  ],
+);
