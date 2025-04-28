@@ -61,7 +61,7 @@ Ensure you have an Android/iOS emulator or a physical device connected.
 If you need access to the Firebase configuration files or have any questions regarding the project setup, please contact:
 
 **Project Owner:** Sarttra Prasongtichol  
-**Email:** sarttra.p@puraido.com
+**Email:** sarttra.pra@student.mahidol.ac.th / burubenkyou@gmail.com
 
 ---
 
