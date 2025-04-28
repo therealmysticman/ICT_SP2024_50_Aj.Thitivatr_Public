@@ -23,7 +23,7 @@ StarryMatch is a personality-based matching application built with Flutter and F
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/therealmysticman/ICT_SP2024_50_Aj.Thitivatr_Public.git
+git clone https://github.com/therealmysticman/ICT_SP2024_50_StarryMatch_Public.git
 cd StarryMatch_Real
 cd starry_match
 ```
