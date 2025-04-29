@@ -9,6 +9,7 @@ import 'package:starry_match/testselection.dart';
 import 'package:starry_match/theme/AppThemeExtension.dart';
 import 'package:starry_match/usernamedetermine.dart';
 import 'package:starry_match/services/online_status_manager.dart'; // ✅ Import OnlineStatusManager
+import 'package:starry_match/reset_password.dart';
 
 class EmailLoginPage extends StatefulWidget {
   const EmailLoginPage({super.key});
@@ -305,6 +306,28 @@ class _EmailLoginPageState extends State<EmailLoginPage> {
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
                         borderSide: BorderSide.none,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  // Add forgot password link
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const ResetPasswordPage(),
+                          ),
+                        );
+                      },
+                      child: Text(
+                        AppLocalizations.of(context)!.translate('forgot_password'),
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.primary,
+                          decoration: TextDecoration.underline,
+                        ),
                       ),
                     ),
                   ),

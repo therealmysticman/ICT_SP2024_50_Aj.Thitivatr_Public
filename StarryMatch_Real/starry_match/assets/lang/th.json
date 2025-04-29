@@ -202,5 +202,12 @@
     "is_typing": "กำลังพิมพ์...",
     "multiple_typing": "หลายคนกำลังพิมพ์...",
     "userid_already_set": "ID ผู้ใช้งานนี้ถูกใช้ไปแล้ว",
-    "username_already_taken": "ชื่อผู้ใช้งานนี้ถูกใช้ไปแล้ว"
+    "username_already_taken": "ชื่อผู้ใช้งานนี้ถูกใช้ไปแล้ว",
+    "forgot_password": "ลืมรหัสผ่าน?",
+    "reset_password": "รีเซ็ตรหัสผ่าน",
+    "reset_password_title": "รีเซ็ตรหัสผ่านของคุณ",
+    "reset_password_message": "กรุณากรอกอีเมลของคุณ เราจะส่งลิงก์รีเซ็ตรหัสผ่านให้คุณ",
+    "reset_password_success": "ส่งอีเมลรีเซ็ตรหัสผ่านแล้ว! กรุณาตรวจสอบกล่องจดหมายของคุณ",
+    "reset_password_error": "เกิดข้อผิดพลาดในการส่งอีเมลรีเซ็ต กรุณาลองอีกครั้ง",
+    "send_reset_link": "ส่งลิงก์รีเซ็ต"
 }

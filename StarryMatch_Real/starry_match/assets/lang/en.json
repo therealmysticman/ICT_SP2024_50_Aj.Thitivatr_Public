@@ -202,5 +202,12 @@
   "none": "None",
   "avatar_updated": "Avatar updated successfully",
   "userid_already_set": "User ID already set",
-  "username_already_taken": "Username already taken"
+  "username_already_taken": "Username already taken",
+  "forgot_password": "Forgot Password?",
+  "reset_password": "Reset Password",
+  "reset_password_title": "Reset Your Password",
+  "reset_password_message": "Enter your email address and we'll send you a link to reset your password.",
+  "reset_password_success": "Password reset email sent! Please check your inbox.",
+  "reset_password_error": "Error sending reset email. Please try again.",
+  "send_reset_link": "Send Reset Link"
 }
